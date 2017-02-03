@@ -21,7 +21,7 @@ uint32_t playbackPos = 0;
 UDP Udp;
 const int localPort = 4444;
 const int remotePort = 41234;
-IPAddress remoteIpAddress(192,168,0,126);
+IPAddress remoteIpAddress(192,168,0,7);
 
 const auto networkBufferSize = 2*1024;
 int8_t networkBuffer[networkBufferSize] = { 0 };
